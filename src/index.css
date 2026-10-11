@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display {
+    font-family: 'Baloo 2', 'Fredoka', 'Fraunces', cursive, sans-serif;
+    font-optical-sizing: auto;
+  }
+  .font-fun {
+    font-family: 'Baloo 2', 'Fredoka', cursive, sans-serif;
+  }
+  .font-subheading {
+    font-family: 'Baloo 2', 'Fredoka', sans-serif;
+  }
+  .font-bengali {
+    font-family: 'Noto Serif Bengali', 'Baloo 2', sans-serif;
+  }
+}
+
+@keyframes gentleFloatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
+
+@keyframes gentleFloatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(12px) rotate(-2deg);
+  }
+}
+
+@keyframes gentleDrift {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(6px, -8px);
+  }
+}
+
+.animate-float-1 {
+  animation: gentleFloatSlow 8s ease-in-out infinite;
+}
+
+.animate-float-2 {
+  animation: gentleFloatReverse 9.5s ease-in-out infinite;
+}
+
+.animate-float-3 {
+  animation: gentleDrift 11s ease-in-out infinite;
+}
+

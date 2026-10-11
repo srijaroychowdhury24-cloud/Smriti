@@ -1,0 +1,6 @@
+{
+  "name": "Smriti",
+  "description": "Smriti - AI-powered cognitive care and memory assistance platform for elderly dementia patients in the North Eastern Region with pastel aesthetics, score tracking, friendly companion Mimi, and multilingual support in Bengali, Hindi, and English.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
